@@ -10,7 +10,7 @@ export default function Navbar() {
     { id: nanoid(), title: "Kontakt", path: "/" },
   ];
   return (
-    <nav className="flex items-center justify-between w-full h-20 px-4">
+    <nav className="flex items-center justify-between w-full h-20 px-4 mb-10">
       <h1 className="text-3xl font-bold">Valentinstag vergessen?</h1>
       <ul className="flex gap-4 text-xl">
         {navLinks.map((navLink) => (
